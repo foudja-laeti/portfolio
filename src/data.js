@@ -125,8 +125,8 @@ export const projets = [
       "Mon portfolio personnel, conçu pour présenter mon profil de développeuse full stack et d'architecte logiciel : site multi-pages, animations et design responsive, pensé comme une vitrine professionnelle.",
     techno: ['React.js', 'Vite'],
     image: '/logo.png',
-    code: '',
-    demo: '',
+    code: 'https://github.com/foudja-laeti/portfolio.git',
+    demo: 'https://laetitia-foudja.vercel.app',
   },
 ]
 export const experiences = [
