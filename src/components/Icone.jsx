@@ -6,7 +6,7 @@ import {
 import {
   SiPython, SiDjango, SiLaravel, SiJavascript, SiReact, SiAngular, SiHtml5, SiFlutter,
   SiPostman, SiInsomnia, SiGit, SiGithub, SiFigma, SiSonarqubeserver, SiGrafana,
-  SiPrometheus, SiDocker, SiVercel, SiPostgresql, SiMysql,
+  SiPrometheus, SiDocker, SiVercel, SiPostgresql, SiMysql, SiFastapi, SiTypescript, SiMongodb, SiPhp, SiNodedotjs,
 } from 'react-icons/si'
 import { VscVscode } from 'react-icons/vsc'
 
@@ -58,6 +58,15 @@ const icones = {
   vercel: SiVercel,
   postgresql: SiPostgresql,
   mysql: SiMysql,
+  mongodb: SiMongodb,
+  monolithique: LuLayers,
+  microservices: LuLayers,
+  architecture: LuLayers,
+  typescript : SiTypescript,
+  fastapi : SiFastapi,
+  node : SiNodedotjs,
+  php : SiPhp,
+ 
 }
 
 function Icone({ nom, className }) {

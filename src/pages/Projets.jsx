@@ -8,12 +8,12 @@ function Projets() {
     <PageWrapper titre="Projets">
       <Reveal className="projets-resume">
         <p>
-          Cette page rassemble les projets que j'ai conçus et développés, en équipe ou en autonomie :
-          des applications web et mobiles full stack, de l'étude du besoin jusqu'à la mise en ligne.
+          Cette page rassemble les projets que j'ai conçus et développés :
+          des applications web full stack, de l'étude du besoin jusqu'à la mise en production.
         </p>
         <p>
-          Pour chacun, tu trouveras le contexte, les technologies utilisées, le{' '}
-          <strong>code source sur GitHub</strong> et la <strong>démo hébergée</strong> pour le tester
+          Chacune ayant le contexte, les technologies utilisées, le{' '}
+          <strong>code source sur GitHub</strong> et la <strong>démo hébergée</strong> pour tester
           en direct.
         </p>
       </Reveal>

@@ -109,7 +109,7 @@ function Competences() {
   return (
     <PageWrapper titre="Compétences">
       <p className="aide">
-        <Icone nom="astuce" /> Survole la sphère pour l'explorer · choisis une catégorie pour voir le détail
+        <Icone nom="astuce" /> Explorez les langages, technologies, outils, frameworks, base de données et architecture que je maitrise et qui me permettent de concevoir et développer des applications web et mobiles complètes et performantes.
       </p>
 
       <div className="comp-layout">

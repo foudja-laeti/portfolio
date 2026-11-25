@@ -45,8 +45,11 @@ export const competences = [
     categorie: 'Backend',
     description: 'La logique métier et les services qui font tourner les applications.',
     items: [
-      { nom: 'Python / Django', icone: 'django' },
+      { nom: 'Django', icone: 'django' },
+      {nom: 'fastAPI', icone: 'fastapi' },
       { nom: 'Laravel', icone: 'laravel' },
+      {nom: 'node.js', icone: 'node' },
+      { nom: 'PHP', icone: 'php' },
     ],
   },
   {
@@ -59,6 +62,7 @@ export const competences = [
       { nom: 'React.js', icone: 'react' },
       { nom: 'Angular', icone: 'angular' },
       { nom: 'HTML5 / CSS3', icone: 'html5' },
+      {nom: 'typescript', icone: 'typescript' },
     ],
   },
   {
@@ -96,6 +100,17 @@ export const competences = [
     items: [
       { nom: 'PostgreSQL', icone: 'postgresql' },
       { nom: 'MySQL', icone: 'mysql' },
+      {nom: 'MongoDB', icone: 'mongodb' },
+    ],
+  },
+  {
+    id: 'Architecture',
+    icone: 'architecture',
+    categorie: 'Architecture',
+    description: 'Concevoir et structurer les systèmes logiciels de manière efficace et maintenable.',
+    items: [
+      { nom: 'Monolithique', icone: 'monolithique' },
+      { nom: 'Microservices', icone: 'microservices' },
     ],
   },
 ]
@@ -127,6 +142,16 @@ export const projets = [
     image: '/logo.png',
     code: 'https://github.com/foudja-laeti/portfolio.git',
     demo: 'https://laetitia-foudja.vercel.app',
+  },
+
+  {
+    titre: 'DiabeteCam : Application de prédiction du diabète avec IA',
+    description:
+      "Application de surveillance médicale du diabète avec IA - Python, pandas, scikit-learn. Prédiction du diabète avec deux modèles de classification : régression logistique et arbre de décision",
+    techno: ['Python', 'pandas', 'scikit-learn'],
+    image: '/logodiabete.png',
+    code: 'https://github.com/foudja-laeti/surveillance-diabete.git',
+    demo: '',
   },
 ]
 export const experiences = [
