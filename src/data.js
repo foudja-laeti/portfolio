@@ -34,7 +34,7 @@ export const bilingue = {
 
 export const stats = [
   { valeur: 3, suffixe: '+', label: 'projets académiques coordonnés' },
-  { valeur: 3, suffixe: '', label: 'frameworks front et mobile : React, Angular, Flutter' },
+
   { valeur: 2, suffixe: '', label: 'langues parfaitement maîtrisées : anglais et français' },
 ]
 
@@ -159,8 +159,8 @@ export const formations = [
   },
   {
     icone: 'diplome',
-    titre: 'Bachelor Expert en Architecture Logicielle',
-    lieu: 'IUC, Cameroun (Bac+5)',
+    titre: 'Bachelor Concepteur Développeur Web Full Stack',
+    lieu: 'IUC, Cameroun',
     date: '09/2026',
     description:
       'Conception et développement web full stack : interfaces front-end et services back-end, avec de nombreux projets réalisés en équipe.',
