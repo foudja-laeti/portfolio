@@ -76,9 +76,9 @@ function Hero({ profil }) {
           <div className="photo-frame">
             <img src={profil.photo} alt={`Portrait de ${profil.nom}`} />
           </div>
-          <span className="chip c1">Full Stack</span>
-          <span className="chip c2">Figma</span>
-          <span className="chip c3">Architecture logicielle</span>
+          <span className="chip c1">Dev Full Stack</span>
+          <span className="chip c2">Product Owner</span>
+          <span className="chip c3">Architecte logiciel</span>
         </motion.div>
       </div>
     </section>

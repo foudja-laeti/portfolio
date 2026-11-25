@@ -1,12 +1,12 @@
 import {
   LuServer, LuMonitor, LuSmartphone, LuWrench, LuDatabase, LuBriefcase, LuGraduationCap,
   LuMicroscope, LuLanguages, LuHand, LuLayers, LuRocket, LuMail, LuLightbulb, LuMapPin,
-  LuSparkles, LuMenu, LuSun, LuMoon, LuSend, LuCloud,
+  LuSparkles, LuMenu, LuSun, LuMoon, LuSend, LuCloud, LuFileText,
 } from 'react-icons/lu'
 import {
   SiPython, SiDjango, SiLaravel, SiJavascript, SiReact, SiAngular, SiHtml5, SiFlutter,
   SiPostman, SiInsomnia, SiGit, SiGithub, SiFigma, SiSonarqubeserver, SiGrafana,
-  SiPrometheus, SiDocker, SiVercel, SiPostgresql, SiMysql, SiFastapi, SiTypescript, SiMongodb, SiPhp, SiNodedotjs,
+  SiPrometheus, SiDocker, SiVercel, SiPostgresql, SiMysql, SiFastapi, SiTypescript, SiMongodb, SiPhp, SiNodedotjs, SiNextdotjs , SiJira, SiTrello, SiSwagger, SiSharp,
 } from 'react-icons/si'
 import { VscVscode } from 'react-icons/vsc'
 
@@ -66,7 +66,14 @@ const icones = {
   fastapi : SiFastapi,
   node : SiNodedotjs,
   php : SiPhp,
- 
+  next : SiNextdotjs,
+  jira : SiJira,
+  trello : SiTrello,
+  swagger : SiSwagger,
+  Csharp : SiSharp,
+  word : LuFileText,
+  excel : LuFileText,
+  powerpoint : LuFileText,
 }
 
 function Icone({ nom, className }) {

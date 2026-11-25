@@ -1,3 +1,5 @@
+import { SiWacom } from "react-icons/si"
+
 export const profil = {
   nom: 'Laetitia Foudja Nzuala',
   titre: 'Développeuse Full Stack & Architecte Logiciel',
@@ -8,7 +10,7 @@ export const profil = {
   ville: 'Limoges',
   github: 'https://github.com/foudja-laeti',
   linkedin: 'https://linkedin.com/in/laeti-foudja',
-  cv: '/cv-laetitia-foudja.pdf',
+  cv: '/CV - Laetitia Foudja.pdf',
   logo: '/logo.png',
   photo: '/photo.jpg',
   formulaire: '', // lien Formspree, voir les explications plus bas
@@ -33,7 +35,7 @@ export const bilingue = {
 }
 
 export const stats = [
-  { valeur: 3, suffixe: '+', label: 'projets académiques coordonnés' },
+  { valeur: 5, suffixe: '+', label: 'projets académiques coordonnés' },
 
   { valeur: 2, suffixe: '', label: 'langues parfaitement maîtrisées : anglais et français' },
 ]
@@ -46,10 +48,12 @@ export const competences = [
     description: 'La logique métier et les services qui font tourner les applications.',
     items: [
       { nom: 'Django', icone: 'django' },
-      {nom: 'fastAPI', icone: 'fastapi' },
+      {nom: 'FastAPI', icone: 'fastapi' },
       { nom: 'Laravel', icone: 'laravel' },
-      {nom: 'node.js', icone: 'node' },
+      {nom: 'Node.js', icone: 'node' },
       { nom: 'PHP', icone: 'php' },
+      {nom : 'C#', icone: 'Csharp' },
+
     ],
   },
   {
@@ -63,6 +67,7 @@ export const competences = [
       { nom: 'Angular', icone: 'angular' },
       { nom: 'HTML5 / CSS3', icone: 'html5' },
       {nom: 'typescript', icone: 'typescript' },
+      {nom : 'Next.js', icone: 'next' },
     ],
   },
   {
@@ -88,8 +93,11 @@ export const competences = [
       { nom: 'Grafana', icone: 'grafana' },
       { nom: 'Prometheus', icone: 'prometheus' },
       { nom: 'Docker', icone: 'docker' },
-      { nom: 'o2switch', icone: 'o2switch' },
+      { nom: 'O2switch', icone: 'o2switch' },
       { nom: 'Vercel', icone: 'vercel' },
+      {nom : 'Trello', icone: 'trello' },
+      {nom : 'Jira', icone: 'jira' },
+      {nom : 'Swagger', icone: 'swagger' },
     ],
   },
   {
@@ -111,6 +119,17 @@ export const competences = [
     items: [
       { nom: 'Monolithique', icone: 'monolithique' },
       { nom: 'Microservices', icone: 'microservices' },
+    ],
+  },
+  {
+    id: 'bureautique',
+    icone: 'bureautique',
+    categorie: 'Bureautique',
+    description: 'Outils de bureautique pour la rédaction, la présentation et l’organisation.',
+    items: [
+      { nom: 'Word', icone: 'word' },
+      { nom: 'Excel', icone: 'excel' },
+      { nom: 'PowerPoint', icone: 'powerpoint' },
     ],
   },
 ]
@@ -180,7 +199,7 @@ export const formations = [
     date: "En cours · jusqu'en 2028",
     description:
       "Formation Expert en architecture et développement logiciel, axée sur la conception d'architectures applicatives et le développement de solutions logicielles.",
-    tags: ['Architecture logicielle', 'Développement logiciel'],
+    
   },
   {
     icone: 'diplome',
@@ -189,7 +208,7 @@ export const formations = [
     date: '09/2026',
     description:
       'Conception et développement web full stack : interfaces front-end et services back-end, avec de nombreux projets réalisés en équipe.',
-    tags: ['React', 'Angular', 'Laravel', 'PHP', 'Python'],
+    
   },
   {
     icone: 'mobile',
@@ -197,7 +216,7 @@ export const formations = [
     lieu: 'IUC, Cameroun',
     date: '08/2025',
     description: "Développement d'applications mobiles natives et cross-platform.",
-    tags: ['Mobile natif', 'Cross-platform', 'Flutter'],
+   
   },
   {
     icone: 'sciences',
@@ -205,6 +224,6 @@ export const formations = [
     lieu: "Collège Moderne Bilingue L'Étoile",
     date: '08/2023',
     description: 'Diplôme anglophone de fin de lycée, filière scientifique.',
-    tags: ['Sciences', 'Anglais'],
+    
   },
 ]
